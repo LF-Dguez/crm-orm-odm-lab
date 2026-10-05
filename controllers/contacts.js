@@ -32,6 +32,10 @@ async function update(req, res) {
   }
 
   // TODO CHALLENGE 07: actualizar el contacto con los datos recibidos en req.body
+  await contact.update(req.body, {
+    fields: ['firstName', 'lastName', 'email', 'phone', 'companyId']
+  });
+
 
   res.status(200).json(contact);
 }
