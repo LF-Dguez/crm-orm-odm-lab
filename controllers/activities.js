@@ -5,7 +5,7 @@ async function getAll(req, res) {
   const filter = {};
 
   // TODO CHALLENGE 02: recuperar las actividades con Mongoose
-  const activities = [];
+  const activities = await Activity.find(filter);
 
   res.status(200).json(activities);
 }
