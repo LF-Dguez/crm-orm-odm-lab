@@ -136,3 +136,4 @@ Es necesario porque las pruebas crean y cambian datos. Si no se reiniciaran la s
 El reto más difícil fue el 5 porque era el más largo. Tuve que cambiar dos partes del archivo y revisar models/sequelize/index.js para saber cuál era el alias de la relación. Aparte no recordaba cómo traer los contactos junto con la compañía, así que tuve que investigar. Jest me marcaba Expected: true, Received: false en la prueba que revisa que contacts sea un arreglo y por eso entendí que la respuesta no traía los contactos.
 
 ## Evidencia
+<img width="561" height="447" alt="Evidencia" src="https://github.com/user-attachments/assets/9177a93f-6674-44ef-9fbf-a318a9e05825" />
